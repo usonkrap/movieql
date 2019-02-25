@@ -1,0 +1,9 @@
+type usonkrap {
+    name:String!
+    age:Int!
+    gender:String!
+}
+
+type Query {
+  person: usonkrap!
+}
